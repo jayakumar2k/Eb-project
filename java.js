@@ -1,5 +1,5 @@
 
-function calc(){
+function calc(event){
     var current=document.getElementById("Current Reading")
 var previous=document.getElementById("Previous Reading")
 var total= current.value - previous.value
@@ -30,5 +30,7 @@ else{
     
 }
      display.append("Rs."+ amt)
+     event.target.remove()
+     
 
 }
