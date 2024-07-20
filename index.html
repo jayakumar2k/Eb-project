@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trim Electricity Bills</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="Ebcalc">
+      <div class="head">
+        <div class="headbox">
+          <h2>ELECTRIC BILL CALCULATOR</h2>
+        </div>
+        <form>
+          <table>
+            <tr>
+              <td><h3>Previous Reading:</h3></td>
+              <td>
+                <input
+                  type="number"
+                  id="Previous Reading"
+                  placeholder="Enter Previous Reading"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><h3>Current Reading:</h3></td>
+              <td>
+                <input
+                  type="number"
+                  id="Current Reading"
+                  placeholder="Enter Current Reading"
+                />
+              </td>
+            </tr>
+          </table>
+        </form>
+        <div class="inputresult">
+          <h3 style="color: darkorange" id="result">The Amount is:</h3>
+        </div>
+
+        <div id="button">
+          <button class="home" id="calculate" onclick="calc()">
+            CALCULATE
+          </button>
+        </div>
+        <div class="guide">
+          <h2 style="color: darkorange">Guidelines</h2>
+          <ul>
+            <li>Put last month reading in Previous Reading Box</li>
+            <li>
+              Check the Current reading in reading meter and put it in the
+              Current reading Box
+            </li>
+            <li>Note:This will only for Home Use</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttom">
+      <div class="one">
+        <h2>Contact info</h2>
+      </div>
+      <div class="two">
+        <a href="https://www.instagram.com/ijayekumar">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="mailto:jayekumar12@gmail.com"
+          ><i class="fa-regular fa-envelope"></i>
+        </a>
+        <a href="https://www.likedin.com/in/jayakumar-s-721097284"
+          ><i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="tel:+91 6382814812"> <i class="fa-solid fa-phone"></i></a>
+      </div>
+      <div class="para">
+        <h5>
+          If you are facing any issues or bugs while using this site, feel free
+          to contact
+          <a style="color: darkorange" href="mailto:jayekumar12@gmail.com"
+            >jayekumar12@gmail.com.</a
+          >
+        </h5>
+      </div>
+    </div>
+
+    <script src="java.js"></script>
+  </body>
+</html>
