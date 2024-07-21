@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trim Electricity Bills</title>
+    <title>Trim EB Bills</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,9 +18,105 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="icon" href="Logo eb .jpg">
+    <link rel="icon" href="Logo eb .jpg" />
   </head>
   <body>
+    <div class="top">
+      <h4>Techniques for Cutting Power Bills</h4>
+    </div>
+    <div class="nav">
+      <a onclick="showhome()"> <button>Home</button> </a>
+      <a onclick="showcal()"> <button>EB Calculator</button> </a>
+      <a onclick="showchart()"> <button>Chart</button> </a>
+    </div>
+    <div class="tipscon">
+      <div class="tips">
+        <h2>Tips to Save Electric Bills</h2>
+
+        <ul>
+          <li>
+            <strong>1.Use Energy-Efficient Appliances:</strong> Replace old
+            appliances with energy-efficient models that have an Energy Star
+            rating.
+          </li>
+          <li>
+            <strong>2.Turn Off Lights When Not in Use:</strong> Develop a habit
+            of turning off lights in rooms that are not being used.
+          </li>
+          <li>
+            <strong>3.Unplug Devices:</strong> Unplug electronics and chargers
+            when they are not in use to avoid phantom energy consumption.
+          </li>
+          <li>
+            <strong>4.Use Power Strips:</strong> Use power strips to easily turn
+            off multiple devices at once, especially ones that consume standby
+            power.
+          </li>
+          <li>
+            <strong>5.Adjust Thermostat:</strong> Set your thermostat to an
+            energy-saving temperature (warmer in summer, cooler in winter) when
+            you are asleep or away from home.
+          </li>
+          <li>
+            <strong>6.Seal Drafts:</strong> Seal gaps around windows and doors
+            to prevent heat loss in winter and keep cool air in during summer.
+          </li>
+          <li>
+            <strong>7.Use Natural Light:</strong> Open curtains and blinds
+            during the day to utilize natural light instead of turning on
+            lights.
+          </li>
+          <li>
+            <strong>8.Install LED Bulbs:</strong> Replace incandescent bulbs
+            with energy-efficient LED bulbs, which use less energy and last
+            longer.
+          </li>
+          <li>
+            <strong>9.Air Dry Clothes:</strong> Air dry clothes instead of using
+            a dryer whenever possible to save energy.
+          </li>
+          <li>
+            <strong>10.Use Energy-Saving Settings:</strong> Use energy-saving
+            settings on appliances such as dishwashers, washing machines, and
+            computers.
+          </li>
+        </ul>
+      </div>
+      <div class="tips1">
+        <h2>Bonus Tips</h2>
+
+        <ul>
+          <li>
+            <strong>Regular Usage:</strong> Use the app at least once a week to
+            monitor and calculate your electricity usage.
+          </li>
+          <li>
+            <strong>Consistency:</strong> Input accurate data each time you use
+            the app to ensure precise calculations of your electricity bill.
+          </li>
+          <li>
+            <strong>Tracking Trends:</strong> Over time, track your electricity
+            usage trends by comparing weekly bills. This can help you understand
+            seasonal variations or changes in consumption habits.
+          </li>
+          <li>
+            <strong>Budget Planning:</strong> Use the app's calculations to plan
+            your budget effectively, knowing your expected electricity costs on
+            a weekly basis.
+          </li>
+          <li>
+            <strong>Energy Conservation:</strong> Reflect on your weekly usage
+            and consider adjustments to reduce consumption where possible, based
+            on insights gained from the app.
+          </li>
+          <li>
+            <strong>Feedback and Updates:</strong> Provide feedback on the app
+            to help improve its accuracy and usability for future calculations.
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <div id="Ebcalc">
       <div class="head">
         <div class="headbox">
@@ -71,6 +167,27 @@
           </ul>
         </div>
       </div>
+    </div>
+
+    <div class="chart">
+      <p><strong>Consumption less than 500 units:</strong></p>
+      <ul>
+        <li>First 100 units: ₹0 per unit (free)</li>
+        <li>Next 100 units (101 to 200): ₹2.25 per unit</li>
+        <li>Next 200 units (201 to 400): ₹4.8 per unit</li>
+        <li>Next 100 units (401 to 500): ₹6.45 per unit</li>
+      </ul>
+
+      <p><strong>Consumption more than 500 units:</strong></p>
+      <ul>
+        <li>First 100 units: ₹0 per unit (free)</li>
+        <li>Next 300 units (101 to 400): ₹4.8 per unit</li>
+        <li>Next 100 units (401 to 500): ₹6.45 per unit</li>
+        <li>Next 100 units (501 to 600): ₹8.55 per unit</li>
+        <li>Next 200 units (601 to 800): ₹9.65 per unit</li>
+        <li>Next 200 units (801 to 1000): ₹10.70 per unit</li>
+        <li>Above 1000 units: ₹11.80 per unit</li>
+      </ul>
     </div>
 
     <div class="buttom">
